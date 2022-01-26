@@ -1,0 +1,16 @@
+h1 {
+    background-color: black;
+    font-weight: bolder;
+    color: white
+}
+h2{
+    background-color: rebeccapurple;
+    text-align: center;
+    color: white;
+
+}
+h3{
+    background-color: cornflowerblue;
+    text-align: right;
+    font-weight: lighter;
+}
