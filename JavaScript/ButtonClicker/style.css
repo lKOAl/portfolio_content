@@ -1,72 +1,107 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f3f3f3;
+}
+
+a {
+  color: #085394;
 }
 
 .container {
-  background-color: #cccccc;
-  width: 70%;
-  min-height: 50px;
+  width: 1000px;
   margin: 0 auto;
 }
 
-.container-2 {
-  width: 70%;
-  min-height: 100px;
-  margin: 0 auto;
-}
-
-.flexed {
+.top {
+  background-color: #ccc;
+  height: 60px;
+  padding: 20px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
-.mb {
-  margin-bottom: 1.5rem;
+.title {
+  font-size: 3.2rem;
 }
 
-main {
-  background-color: lawngreen;
-  min-height: 100px;
+.search {
+  flex: 1;
+  font-size: 1.2rem;
+  padding: 5px 10px;
+  margin: 0 100px;
+}
+
+.btn {
+  font-size: 1.2rem;
+  padding: 5px 15px;
+  border: 2px solid #000;
+  box-shadow: 4px 4px #000;
+  cursor: pointer;
+}
+
+.login {
+  background-color: #2b78e4;
+  color: #fff;
+}
+
+.row {
+  display: flex;
+}
+
+.flex-2 {
   flex: 2;
 }
 
-aside {
+.flex-1 {
   flex: 1;
-  border: 3px solid black;
-  padding: 20px;
-  margin-left: 20px;
-}
-span {
-  font-weight: bolder;
+  margin-left: 30px;
 }
 
-.border {
-  border: 3px solid black;
+.box {
+  background-color: #fff;
+  margin-top: 30px;
+  padding: 30px;
+  border: 2px solid #999;
 }
 
-.login-button {
-  height: 30px;
-  width: 70px;
-  background-color: #2b78e4;
-  color: white;
-  border: none;
-  font-size: 1rem;
-  box-shadow: 5px 5px black;
+.definition {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.definition-button {
-  border: none;
-  box-shadow: 5px 5px black;
-  font-size: medium;
-  background-color: #93c47d;
+.left {
+  flex: 1;
+  text-align: center;
 }
 
-.like-button {
-  border: none;
-  box-shadow: 5px 5px black;
+.left p {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+
+.like {
   background-color: #ffd966;
+}
+
+.definition-text {
+  flex: 3;
+  margin-left: 20px;
+  font-size: 1.4rem;
+}
+
+.box h2 {
+  font-size: 1.7rem;
+}
+
+.add {
+  background-color: #93c47d;
+  width: 100%;
+  margin-top: 20px;
 }
